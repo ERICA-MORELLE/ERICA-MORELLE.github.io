@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>entrainement</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    class="w-full bg-purple-400 flex items-center justify-center min-h-screen"
+  >
+    <div class="w-full grid grid-cols-12 gap-x-6 gap-y-10 mx-4 my-4 min-h-screen">
+      <form
+        action=""
+        class="col-span-4 border-8 bg-white h-90 rounded shadow-md w-full"
+      >
+        <h3 class="text-lg bg-pink-400 rounded-lg">taches preparatifs des mariages</h3>
+        <div class="p-6 flex w-full">
+          <input id="input1"
+            type="text"
+            class="rounded shadow-md w-50 h-15"
+            placeholder="create your task here"
+          />
+          <button type="submit" class="bg-purple-400 w-1/4 ml-6" id="btn1">
+            add
+          </button>
+        </div>
+        <div>
+          <ul id="ul1" class="space-y-6 rounded shadow-md"></ul>
+        </div>
+      </form>
+      <form
+        action=""
+        class="col-span-4 bg-pink-600 h-90 border-8 rounded shadow-md w-full"
+      >
+      <h3 class="text-2xl bg-pink-100 mx-4 rounded-lg"> tableau des taches terminées</h3>
+        <div>
+          <ul id="termine" class="space-y-8 rounded shadow-md"></ul>
+        </div>
+      </form>
+      <form
+        action=""
+        class="col-span-4 bg-white h-90 border-8 rounded shadow-md w-full"
+      >
+        <h3 class="text-lg bg-pink-500  rounded-lg">taches de depannage-maintenance</h3>
+        <div class="p-6 flex w-full">
+          <input id="input2"
+            type="text"
+            class="rounded shadow-md w-50 h-15"
+            placeholder="create your task here"
+          />
+          <button type="submit" class="bg-purple-400 w-1/4 ml-6" id="btn2">
+            add
+          </button>
+        </div>
+        <div>
+          <ul id="ul2" class="space-y-6 rounded shadow-md"></ul>
+        </div>
+      </form>
+      <form
+        action=""
+        class="col-span-4 bg-white h-90 border-8 rounded shadow-md w-full"
+      >
+        <h3 class="text-lg bg-pink-500 rounded-lg">
+          taches preparatifs de soiree coutumier
+        </h3>
+        <div class="p-6 flex w-full">
+          <input id="input3"
+            type="text"
+            class="rounded shadow-md w-50 h-15"
+            placeholder="create your task here"
+          />
+          <button type="submit" class="bg-purple-400 w-1/4 ml-6" id="btn3">
+            add
+          </button>
+        </div>
+        <div>
+          <ul id="ul3" class="space-y-6 rounded shadow-md"></ul>
+        </div>
+      </form>
+      <form
+        action=""
+        class="col-span-4 bg-white h-90 border-8 rounded shadow-md w-full"
+      >
+        <h3 class="text-lg bg-pink-600  rounded-lg">conception et implementation</h3>
+        <div class="p-6 flex w-full">
+          <input id="input4"
+            type="text"
+            class="rounded shadow-md w-50 h-15"
+            placeholder="create your task here"
+          />
+          <button type="submit" class="bg-purple-400 w-1/4 ml-6" id="btn4">
+            add
+          </button>
+        </div>
+        <div>
+          <ul id="ul4" class="space-y-6 rounded shadow-md"></ul>
+        </div>
+      </form>
+    </div>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
